@@ -29,6 +29,7 @@ require("lazy").setup({
   require('plugins.nvim-tmux-nav'),
   require('plugins.nvimtree'),
   require('plugins.colorschemes'),
+  require('plugins.nvim-java'),
   install = { colorscheme = { 'tokyonight-storm' }},
   checker = { enabled = true },
 })
