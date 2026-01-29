@@ -30,6 +30,7 @@ require("lazy").setup({
   require('plugins.nvimtree'),
   require('plugins.colorschemes'),
   require('plugins.nvim-java'),
+  require('plugins.nvim-autopairs'),
   install = { colorscheme = { 'tokyonight-storm' }},
   checker = { enabled = true },
 })
